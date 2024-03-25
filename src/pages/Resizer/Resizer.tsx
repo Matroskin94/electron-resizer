@@ -2,6 +2,7 @@ import { Box, Button, TextField, Typography } from '@mui/material';
 import { FC } from 'react';
 import PhotoSizeSelectLargeIcon from '@mui/icons-material/PhotoSizeSelectLarge';
 import { ResizeButton } from './components';
+import { alertError } from 'utils/ui';
 
 export const Resizer: FC = () => {
   const handleFileChange = (file: File) => {
