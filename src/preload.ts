@@ -6,5 +6,5 @@ import { app } from './api';
 export const API = {
   app,
 };
-console.log('API', API);
+
 contextBridge.exposeInMainWorld('api', API);

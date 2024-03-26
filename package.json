@@ -3,6 +3,9 @@
   "productName": "electron_resizer",
   "version": "1.0.0",
   "description": "My Electron application description",
+  "keywords": ["electron"],
+  "author": "antonkotov",
+  "license": "MIT",
   "main": ".vite/build/main.js",
   "scripts": {
     "start": "electron-forge start",
@@ -21,8 +24,10 @@
     "@electron-forge/plugin-fuses": "^7.2.0",
     "@electron-forge/plugin-vite": "^7.3.1",
     "@electron/fuses": "^1.7.0",
+    "@types/node": "^20.11.30",
     "@types/react": "^18.2.69",
     "@types/react-dom": "^18.2.22",
+    "@types/resize-img": "^2.0.3",
     "@typescript-eslint/eslint-plugin": "^5.0.0",
     "@typescript-eslint/parser": "^5.0.0",
     "electron": "29.1.5",
@@ -33,9 +38,6 @@
     "vite": "^5.0.12",
     "vite-tsconfig-paths": "^4.3.2"
   },
-  "keywords": [],
-  "author": "antonkotov",
-  "license": "MIT",
   "dependencies": {
     "@emotion/react": "^11.11.4",
     "@emotion/styled": "^11.11.0",
@@ -46,6 +48,7 @@
     "electron-squirrel-startup": "^1.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "resize-img": "^2.0.0",
     "toastify-js": "^1.12.0"
   }
 }

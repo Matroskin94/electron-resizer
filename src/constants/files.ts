@@ -4,3 +4,9 @@ export enum FILE_FORMATS {
   JPG = 'jpg',
   PNG = 'png',
 }
+
+export enum FILE_TYPES {
+  JPEG = 'image/jpeg',
+  JPG = 'image/jpg',
+  PNG = 'image/png'
+}
