@@ -1,0 +1,1 @@
+export { ellipsisText } from './strings';
